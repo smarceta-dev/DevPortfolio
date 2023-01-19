@@ -1,0 +1,17 @@
+.repo-btn, .yt-btn {
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem 1.5rem;
+    letter-spacing: 0.1em;
+    font-size: 1.2rem;
+    width: 10rem;
+    text-align: center;
+}
+
+.yt-btn {
+    background-color: var(--color-primary-medium-red);
+}
+
+.repo-btn {
+    background-color: rgb(1, 99, 247);
+}

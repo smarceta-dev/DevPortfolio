@@ -1,0 +1,68 @@
+:root {
+
+
+    --colour-primary-black: #151515;
+    --color-primary-light-black: #242424;
+    --color-primary-white: #FFFFFF;
+    --color-primary-grey: #d9d9d9;
+    --color-primary-medium-green: #4EE1A0;
+    --color-primary-medium-red: #FF4D5A;
+    --color-primary-light-blue: rgb(72, 173, 240);
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1 rem = 10px, 10px / 16 (browser default) = 62.5%
+}
+
+body { 
+    height: 100vh; 
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--colour-primary-black);
+}
+
+// Typography
+
+p {
+    color: var(--color-primary-grey);
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    color: var(--color-primary-white);
+}
+
+h1 {
+    font-size: clamp(1rem, 4vw, 6em);
+    font-weight: 300;
+}
+
+h2 {
+    font-size: clamp(1rem, 4vw, 4rem);
+    font-weight: 300;
+}
+
+h3 {
+    font-size: clamp(1rem, 4vw, 3rem);
+    font-weight: 300;
+}
+
+h4 { 
+    font-size: clamp(1rem, 4vw, 2em);
+    font-weight: 300;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "devportfolio",
+  "version": "1.0.0",
+  "description": "Portfolio site to display all of my projects - Sanjin Marceta",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "author": "Sanjin Marceta",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
